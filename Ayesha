@@ -1,1 +1,37 @@
+#include <iostream>
+#include <string>
+using namespace std:
+
+// Room types and prices
+int single room price = 4000;
+int double room price = 8000;
+int suit room price = 12000;
+
+// Maximum room counts
+int max single room = 10;
+int max double room = 5;
+int max suite room = 2;
+
+//Room availability 
+int available rooms [3] = {max single rooms, max doublr rooms, max suite rooms};
+
+// Booking information 
+sting customers [100];
+
+// Store costumers names 
+int booking History [100][3];
+// Costumers ID , Room Type, Nights
+int Total Costumers = 0;
+
+//Track Number of Costumers
+void check Availibility (){
+cout<<endl<<"Room Availability:"<<endl;
+cout<<"1.Single Rooms:"<<Available Rooms[0]<<"available"<<endl;
+cout<<"2.Double Room:"<<Available Rooms[1]<<"available"<<endl;
+cout<<"3.Suite Room:"<<Available Room [2]<<"available"<<endl;
+}
+
+
+
+
 
